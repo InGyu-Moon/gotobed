@@ -1,0 +1,95 @@
+#body{
+    background-color:lightblue;
+    
+}
+#center{
+    text-align: center;
+    font-family:'맑은고딕';
+}
+#clock{
+    font-size: 50pt;
+    
+}
+#w_ampm{
+    width:70px;
+    height:30px;
+}
+#w_hour{
+    width:70px;
+    height:30px;
+}
+#w_minute{
+    width:70px;
+    height:30px;
+}
+#s_ampm{
+    width:70px;
+    height:30px;
+}
+#s_hour{
+    width:70px;
+    height:30px;
+}
+#s_minute{
+    width:70px;
+    height:30px;
+}
+#NowButton{
+    width:130px;
+    height:60px;
+    background-color:lightskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#WakeUpButton{
+    width:130px;
+    height:60px;
+    background-color:lightskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#SleepButton{
+    width:130px;
+    height:60px;
+    background-color:lightskyblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#now{
+    border: 5px solid cornflowerblue;
+    border-radius: 50px;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#wakeup{
+    border: 5px solid cornflowerblue;
+    border-radius: 50px;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#sleep{
+    border: 5px solid cornflowerblue;
+    border-radius: 50px;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ad-banner{
+    width: 250px;
+    margin: 0 auto;
+}
+

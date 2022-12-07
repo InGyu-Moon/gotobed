@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "언제잘까?" content = "아침에 일어나기 너무 힘들땐? 언제잘까?"/>
+        <meta name="keyword" content="아침에 일어나기, 기상시간, 취침시간, 자는시간">
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>언제잘까?</title>
+    </head> 
+    <body id="body">
+        <div id="center">
+            <div>최고의 기상시간, 취침시간 계산 - gotobed.ga(가)</div>
+            <h1 id ="clock">00:00:00</h1>
+            <form id ="now">
+                <h2 id="nowWord">지금 자러 가면?</h2>
+                <button id="NowButton">시간 계산</button>
+            </form>
+
+            <h3 id="add_n"></h3>
+
+            <form id ="wakeup">
+                <h2 id="WakeUpTimeWord">당신의 기상 시간은?</h2>
+                <div id="WakeUpTimeTable">
+                    <select name="ampm" id="w_ampm">
+                        <option value="오전">오전</option>
+                        <option value="오후">오후</option>
+                    </select>
+                    <select name="(hour)" id="w_hour">
+                        <option value="시간">(시간)</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="(minute)" id="w_minute">
+                        <option value="분">(분)</option>
+                        <option value="00">00</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <!--<h2 id="WakeUpTimeWord">입니다.</h2>-->
+                <button id="WakeUpButton">시간 계산</button>
+            </form>
+
+            <h3 id="add_w"></h3>
+
+            <form id ="sleep">
+                <h2 id="WakeUpTimeWord">당신의 취침 시간은?</h2>
+                <div id="WakeUpTimeTable">
+                    <select name="ampm" id="s_ampm">
+                        <option value="오전">오전</option>
+                        <option value="오후">오후</option>
+                    </select>
+                    <select name="(hour)" id="s_hour">
+                        <option value="시간">(시간)</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="(minute)" id="s_minute">
+                        <option value="분">(분)</option>
+                        <option value="00">00</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <!--<h2 id="WakeUpTimeWord">입니다.</h2>-->
+                <button id="SleepButton">시간 계산</button>
+            </form>
+
+            <h3 id="add_s"></h3>
+
+        </div>
+
+
+        <div class="ad-banner">
+            <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-MZHSA0anjgi3HeLl" 
+ data-ad-width   = "250" 
+ data-ad-height  = "250"></ins> 
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+
+        <div class="ad-banner">
+            <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-uk8ZlVU4YuIdDqEA" 
+ data-ad-width   = "250" 
+ data-ad-height  = "250"></ins> 
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+
+        
+
+
+
+        <script src="./js/time.js"></script>
+        <script src="./js/button_wakeup.js"></script>
+        <script src="./js/button_sleep.js"></script>
+        <script src="./js/button_now.js"></script>
+    </body>
+</html>
